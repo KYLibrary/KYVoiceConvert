@@ -21,11 +21,11 @@ Pod::Spec.new do |s|
 KYVoiceConvert专门用于iOS音频文件转换,[amrToWav|wavToAmr],判断文件是否是mp3文件[isMP3File],判断文件是否是arm文件[isAMRFile]
                        DESC
 
-  s.homepage         = 'https://github.com/kyleboy/KYVoiceConvert'
+  s.homepage         = 'https://github.com/KYLibrary/KYVoiceConvert'
   # s.screenshots     = 'www.example.com/screenshots_1', 'www.example.com/screenshots_2'
   s.license          = { :type => 'MIT', :file => 'LICENSE' }
-  s.author           = { 'kyleboy' => 'iyinghui@163.com' }
-  s.source           = { :git => 'https://github.com/kyleboy/KYVoiceConvert.git', :tag => s.version.to_s }
+  s.author           = { 'kyleboy' => 'kyleboy@126.com' }
+  s.source           = { :git => 'https://github.com/KYLibrary/KYVoiceConvert.git', :tag => s.version.to_s }
   # s.social_media_url = 'https://twitter.com/<TWITTER_USERNAME>'
 
   s.ios.deployment_target = '8.0'
