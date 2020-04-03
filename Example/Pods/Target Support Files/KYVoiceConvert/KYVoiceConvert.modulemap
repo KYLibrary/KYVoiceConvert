@@ -1,0 +1,6 @@
+framework module KYVoiceConvert {
+  umbrella header "KYVoiceConvert-umbrella.h"
+
+  export *
+  module * { export * }
+}

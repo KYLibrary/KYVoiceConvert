@@ -37,8 +37,8 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		2B83CCF98E14F8D3F17DA511 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; name = README.md; path = ../README.md; sourceTree = "<group>"; };
-		2C291C691CB4F99954671F3C /* KYVoiceConvert.podspec */ = {isa = PBXFileReference; includeInIndex = 1; name = KYVoiceConvert.podspec; path = ../KYVoiceConvert.podspec; sourceTree = "<group>"; };
+		2B83CCF98E14F8D3F17DA511 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = net.daringfireball.markdown; name = README.md; path = ../README.md; sourceTree = "<group>"; };
+		2C291C691CB4F99954671F3C /* KYVoiceConvert.podspec */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = KYVoiceConvert.podspec; path = ../KYVoiceConvert.podspec; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
 		4097D6BA337A583979C39231 /* Pods-KYVoiceConvert_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-KYVoiceConvert_Example.release.xcconfig"; path = "Target Support Files/Pods-KYVoiceConvert_Example/Pods-KYVoiceConvert_Example.release.xcconfig"; sourceTree = "<group>"; };
 		4FF30466C4713BA0C796624F /* Pods-KYVoiceConvert_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-KYVoiceConvert_Example.debug.xcconfig"; path = "Target Support Files/Pods-KYVoiceConvert_Example/Pods-KYVoiceConvert_Example.debug.xcconfig"; sourceTree = "<group>"; };
 		6003F58A195388D20070C39A /* KYVoiceConvert_Example.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = KYVoiceConvert_Example.app; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -64,7 +64,7 @@
 		7BBFB74A88D2C61C22D65245 /* Pods_KYVoiceConvert_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_KYVoiceConvert_Tests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		7F06A16CA2015EB095863667 /* Pods-KYVoiceConvert_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-KYVoiceConvert_Tests.release.xcconfig"; path = "Target Support Files/Pods-KYVoiceConvert_Tests/Pods-KYVoiceConvert_Tests.release.xcconfig"; sourceTree = "<group>"; };
 		873B8AEA1B1F5CCA007FD442 /* Main.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; name = Main.storyboard; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
-		937976A1449AAD78CA29E38E /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; name = LICENSE; path = ../LICENSE; sourceTree = "<group>"; };
+		937976A1449AAD78CA29E38E /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = LICENSE; path = ../LICENSE; sourceTree = "<group>"; };
 		E4123AC2AA8C4307C067F2BF /* Pods_KYVoiceConvert_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_KYVoiceConvert_Example.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		EA275E33F635898032F43C3D /* Pods-KYVoiceConvert_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-KYVoiceConvert_Tests.debug.xcconfig"; path = "Target Support Files/Pods-KYVoiceConvert_Tests/Pods-KYVoiceConvert_Tests.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -193,7 +193,6 @@
 				EA275E33F635898032F43C3D /* Pods-KYVoiceConvert_Tests.debug.xcconfig */,
 				7F06A16CA2015EB095863667 /* Pods-KYVoiceConvert_Tests.release.xcconfig */,
 			);
-			name = Pods;
 			path = Pods;
 			sourceTree = "<group>";
 		};
@@ -259,6 +258,7 @@
 			developmentRegion = English;
 			hasScannedForEncodings = 0;
 			knownRegions = (
+				English,
 				en,
 				Base,
 			);

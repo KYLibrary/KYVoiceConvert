@@ -1,0 +1,23 @@
+{
+  "name": "KYVoiceConvert",
+  "version": "0.1.0",
+  "summary": "iOS音频文件转换.",
+  "description": "KYVoiceConvert专门用于iOS音频文件转换,[amrToWav|wavToAmr],判断文件是否是mp3文件[isMP3File],判断文件是否是arm文件[isAMRFile]",
+  "homepage": "https://github.com/kyleboy/KYVoiceConvert",
+  "license": {
+    "type": "MIT",
+    "file": "LICENSE"
+  },
+  "authors": {
+    "kyleboy": "iyinghui@163.com"
+  },
+  "source": {
+    "git": "https://github.com/kyleboy/KYVoiceConvert.git",
+    "tag": "0.1.0"
+  },
+  "platforms": {
+    "ios": "8.0"
+  },
+  "source_files": "KYVoiceConvert/Classes/**/*",
+  "vendored_libraries": "KYVoiceConvert/Classes/**/*.a"
+}

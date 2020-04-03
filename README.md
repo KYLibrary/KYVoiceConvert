@@ -5,6 +5,8 @@
 [![License](https://img.shields.io/cocoapods/l/KYVoiceConvert.svg?style=flat)](https://cocoapods.org/pods/KYVoiceConvert)
 [![Platform](https://img.shields.io/cocoapods/p/KYVoiceConvert.svg?style=flat)](https://cocoapods.org/pods/KYVoiceConvert)
 
+KYVoiceConvert专门用于iOS音频文件转换,[amrToWav|wavToAmr],判断文件是否是mp3文件[isMP3File],判断文件是否是arm文件[isAMRFile]
+
 ## Example
 
 To run the example project, clone the repo, and run `pod install` from the Example directory first.
@@ -22,7 +24,7 @@ pod 'KYVoiceConvert'
 
 ## Author
 
-kyleboy, iyinghui@163.com
+kyleboy, kyleboy@126.com
 
 ## License
 

@@ -1,0 +1,6 @@
+framework module Pods_KYVoiceConvert_Example {
+  umbrella header "Pods-KYVoiceConvert_Example-umbrella.h"
+
+  export *
+  module * { export * }
+}
